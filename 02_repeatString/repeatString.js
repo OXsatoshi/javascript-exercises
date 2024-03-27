@@ -1,4 +1,7 @@
-const repeatString = function() {
+const repeatString = function(stringToBeRepeated,numberOfTimes) {
+    if(numberOfTimes < 0) return "ERROR";
+    else
+        return stringToBeRepeated.repeat(numberOfTimes);
 
 };
 
